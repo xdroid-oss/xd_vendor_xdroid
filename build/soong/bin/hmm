@@ -1,4 +1,4 @@
-function __print_custom_functions_help() {
+function __print_xdroid_functions_help() {
 cat <<EOF
 Additional functions:
 - brunch:          Runs "breakfast" and "mka bacon" for the provided device target.
@@ -11,7 +11,7 @@ Additional functions:
 - mmmp:            Builds all of the modules in the supplied directories and pushes them to the device.
 - aospremote:      Add git remote for matching AOSP repository.
 - cloremote:       Add git remote for matching CodeLinaro repository.
-- githubremote:    Add git remote for PixelOS-AOSP Github.
+- githubremote:    Add git remote for xdroidOSS Github.
 - privateremote:   Add git remote for Github with ssh access.
 - mka:             Alias to "m".
 - mkap:            Builds the module(s) using mka and pushes them to the device.

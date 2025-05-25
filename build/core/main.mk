@@ -1,2 +1,2 @@
-# Include PixelOS versions
-include $(TOPDIR)vendor/aosp/build/core/main_version.mk
+# Include xdroidOSS versions
+include $(TOPDIR)vendor/xdroid/build/core/main_version.mk
